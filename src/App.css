@@ -1,7 +1,66 @@
 .App {
   text-align: center;
 }
+body{
+  background-image: linear-gradient(to left,#61dafb,rgb(207, 104, 203));
+}
+.btn2{
+  height: 40px;
+  background-color: #61dafb;
+  width: 300px;
+  border-radius: 20px;
+  position: relative;
+left: 30%;
+}
+.btn1{
+  height: 40px;
+  background-color:cornflowerblue;
+  width: 300px;
+  border-radius: 20px;
+position: relative;
+left: 20%;
 
+}
+
+.dvf{
+  background-color:aquamarine;
+  width: 360px;
+height: 200px;
+  text-align: center;
+  border-radius: 20px;
+position:absolute;
+left: 10%;
+top: 40%;
+  border: 2px solid black;
+}
+.dvc{
+  background-color:rgb(255, 127, 246);
+  width: 360px;
+height: 200px;
+  text-align: center;
+  border-radius: 20px;
+position:absolute;
+left: 60%;
+top: 40%;
+  border: 2px solid black;
+}
+
+.header{
+  position: relative;
+  left: 25%;
+  
+  text-shadow: 4px 2px 4px aqua;
+}
+.fpara{
+color: #282c34;
+}
+
+#name2{
+  color:#5bb72d;
+  display: flex;
+ 
+  justify-content: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
